@@ -1,7 +1,17 @@
 import "./App.css";
+import Navbar from "./components/NavBar";
+import { BrowserRouter as Router } from "react-router-dom";
+import { SideBar } from "./components/SideBar/index";
+import { Home } from "./pages";
 
 function App() {
-  return <div className="App">init app</div>;
+  return (
+    <Router>
+      <div className="App">
+        <Home />
+      </div>
+    </Router>
+  );
 }
 
 export default App;
