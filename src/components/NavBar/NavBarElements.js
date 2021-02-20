@@ -81,7 +81,7 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
 
   &.active {
-    border-bottom: 3p solid #01bf71;
+    border-bottom: 3px solid #01bf71;
   }
 `;
 
