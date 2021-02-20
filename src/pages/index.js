@@ -3,6 +3,8 @@ import Navbar from "../components/NavBar";
 import { SideBar } from "../components/SideBar/index";
 import { HeroSection } from "../components/HeroSection/index";
 import { InfoSection } from "../components/InfoSection/index";
+
+import { Services } from "../components/Services/index";
 import {
   HomeObjOne,
   HomeObjTwo,
@@ -22,6 +24,7 @@ export const Home = () => {
       <HeroSection />
       <InfoSection {...HomeObjOne} />
       <InfoSection {...HomeObjTwo} />
+      <Services />
       <InfoSection {...HomeObjThree} />
     </>
   );
