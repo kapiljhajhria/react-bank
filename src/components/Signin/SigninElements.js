@@ -103,3 +103,11 @@ export const Text = styled.span`
   color: #fff;
   font-size: 14px;
 `;
+
+export const DemoWarningText = styled.span`
+  position: relative;
+  text-align: center;
+  font-size: 12px;
+  color: red;
+  bottom: -60px;
+`;

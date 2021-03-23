@@ -10,6 +10,7 @@ import {
   FormWrap,
   Icon,
   Text,
+  DemoWarningText,
 } from "./SigninElements.js";
 
 const SignIn = () => {
@@ -27,6 +28,7 @@ const SignIn = () => {
               <FormInput type="password" required />
               <FormButton type="submit">Continue</FormButton>
               <Text>Forgot password</Text>
+              <DemoWarningText>This is dummy SignIn Page</DemoWarningText>
             </Form>
           </FormContent>
         </FormWrap>
